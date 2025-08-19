@@ -14,17 +14,18 @@
 }
 
 .header__logo-image {
-
+    width: 100%;
+    height: 100%;
 }
 
-.header__menu {
-
-}
 
 .header__links-list {
     display: flex;
     column-gap: 30px;   /* todo подогнать на аиксель перфекте */
     list-style: circle;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
 }
 
 .header__links-list-item{
@@ -42,10 +43,6 @@
     font-style: inherit;
 }
 
-.header__link_active {
-
-}
-
 .address {  /* todo сбросить стандартные браузерные стили для текста и задайте собственные*/
     font-family: Raleway, sans-serif;
      display: flex;
@@ -60,8 +57,9 @@
 }
 
 .header__address {
-    max-width: 210px;
+    max-width: 237px;
     justify-self: end;
+  
    
 }
 
@@ -321,7 +319,6 @@ gap: 24px;
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
- 
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 82px;
@@ -341,6 +338,7 @@ gap: 24px;
 
 .footer__menu-list-item {
     text-align: center;
+    line-height: 142%;
 
 }
 
