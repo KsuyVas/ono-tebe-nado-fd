@@ -129,7 +129,6 @@
   padding: 0;
   border: 1px solid white;
   font: inherit;
-  color: white;
   cursor: pointer;
   font-weight: 500;
   font-size: 22px;
@@ -267,7 +266,6 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   margin-top: 5px;
   margin-left: 24px;
   margin-right: 7px;
