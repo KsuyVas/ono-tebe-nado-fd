@@ -7,9 +7,9 @@
 }
 
 .header__logo {
-  display: block;
   width: 148px;
   height: 105px;
+  display: block;
 }
 
 .header__logo-image {
@@ -19,7 +19,7 @@
 
 .header__links-list {
   display: flex;
-  column-gap: 30px; 
+  column-gap: 30px;
   list-style: circle;
   font-weight: 400;
   font-size: 18px;
